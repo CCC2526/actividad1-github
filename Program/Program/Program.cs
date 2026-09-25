@@ -5,15 +5,12 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-<<<<<<< HEAD
 
             Persona persona1 = new Persona("Carlos", 25);
 
             persona1.setEdad(26);
 
             Console.WriteLine("La nueva edad obtenida con getEdad() es: " + persona1.getEdad());
-
-
 
 
             Persona p2 = new Persona("Carlos", 22);
@@ -26,8 +23,6 @@
             {
                 Console.WriteLine($"{p2.Nombre} es menor de edad.");
             }
-=======
->>>>>>> parent of 509f953 (Creada llamada a setter y getter en main)
         }
     }
 }
