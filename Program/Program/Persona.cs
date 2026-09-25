@@ -14,5 +14,9 @@ namespace Program
             Nombre = nombre;
             Edad = edad;
         }
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad} años");
+        }
     }
 }
