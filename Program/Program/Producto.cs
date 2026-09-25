@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Program
 {
-    internal class Producto
+    public class Producto
     {
+        public string Nombre { get; set; }
+        public double Precio { get; set; }
     }
 }
