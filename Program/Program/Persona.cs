@@ -14,9 +14,25 @@ namespace Program
             Nombre = nombre;
             Edad = edad;
         }
+
+        public int getEdad()
+        {
+            return Edad;
+        }
+
+        public void setEdad(int nuevaEdad)
+        {
+            this.Edad = nuevaEdad;
+        }
+
         public void MostrarDatos()
         {
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad} años");
+        }
+
+        public bool EsMayorDeEdad()
+        {
+            return Edad >= 18;
         }
     }
 }
