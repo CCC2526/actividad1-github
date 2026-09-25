@@ -14,5 +14,10 @@ namespace Program
             Nombre = nombre;
             Precio = precio;
         }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Producto: {Nombre} | Precio: {Precio} €");
+        }
     }
 }
