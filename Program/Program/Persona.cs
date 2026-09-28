@@ -15,6 +15,16 @@ namespace Program
             Edad = edad;
         }
 
+        public int getEdad()
+        {
+            return Edad;
+        }
+
+        public void setEdad(int nuevaEdad)
+        {
+            this.Edad = nuevaEdad;
+        }
+
         public void MostrarDatos()
         {
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad} años");
