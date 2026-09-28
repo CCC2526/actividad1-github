@@ -19,5 +19,10 @@ namespace Program
         {
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad} años");
         }
+
+        public bool EsMayorDeEdad()
+        {
+            return Edad >= 18;
+        }
     }
 }
