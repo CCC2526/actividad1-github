@@ -8,10 +8,16 @@ namespace Program
     {
         public string Nombre { get; set; }
         public int Edad { get; set; }
+
         public Persona(string nombre, int edad)
         {
             Nombre = nombre;
             Edad = edad;
+        }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad} años");
         }
     }
 }
